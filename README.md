@@ -1,4 +1,4 @@
-#proxy_pool
+# proxy_pool
 
 a simple proxy pool
 
@@ -12,6 +12,6 @@ $ celery -B -A celery_app worker -l warning -f beat.log
 
 $ python run.py
 
+```
 api_list on `0.0.0.0:5000`
 get a http proxy: `/get/http/1`
-```
